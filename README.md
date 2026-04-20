@@ -52,7 +52,9 @@ Matched Bots: ['Bot_A', 'Bot_B']
   "topic": "I want to post about \"Using AI in Disaster Response and Recovery\".",
   "post_content": "\"The release of OpenAI's new model is a gamechanger in disaster response & recovery. AI can help save lives, reduce response times & allocate resources more efficiently. Time to stop debating AI's job impact & focus on the lifesaving potential ahead. #AIForGood\""
 }
-🛡️ Phase 3: Combat Engine (RAG + Defense)
+```
+---
+## 🛡️ Phase 3: Combat Engine (RAG + Defense)
 Used full conversation context (parent + history + reply)
 Generated intelligent, contextual responses
 Implemented prompt injection defense
@@ -62,7 +64,7 @@ Maintains persona consistency
 Rejects role-changing attempts
 
 
-▶️ How to Run
+## ▶️ How to Run
 
 1. Install dependencies
 pip install -r requirements.txt
@@ -77,7 +79,7 @@ python phase2_langgraph.py
 python phase3_rag.py
 
 
-📂 Project Structure
+## 📂 Project Structure
 grid07-ai-assignment/
 │── phase1_router.py
 │── phase2_langgraph.py
@@ -87,14 +89,14 @@ grid07-ai-assignment/
 │── .env.example
 │── logs.md
 
-🧪 Execution Logs
+## 🧪 Execution Logs
 See logs.md for sample outputs of all phases.
 
-💡 Key Highlights
+## 💡 Key Highlights
 Efficient vector similarity routing
 Modular LangGraph workflow
 Secure RAG implementation
 Prompt injection defense handled at system level
 
-⚠️ Note
+## ⚠️ Note
 Threshold values were tuned based on the embedding model used locally.
